@@ -1,0 +1,30 @@
+{
+  "name": "saarthi-setu-dre",
+  "version": "1.0.0",
+  "description": "SAARTHI-SETU Deterministic Rule Engine (DRE) — Omnichannel scheme matching & financial simulator microservice",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test test/*.test.js",
+    "cli": "node test_cli.js"
+  },
+  "keywords": [
+    "sih2026",
+    "saarthi-setu",
+    "rule-engine",
+    "dre",
+    "microservice",
+    "omnichannel",
+    "government-schemes",
+    "financial-inclusion"
+  ],
+  "author": "Team Manifestation (SIH 2026)",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
