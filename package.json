@@ -8,7 +8,8 @@
     "start": "node src/server.js",
     "dev": "node --watch src/server.js",
     "test": "node --test test/*.test.js",
-    "cli": "node test_cli.js"
+    "cli": "node test_cli.js",
+    "build:schemes": "node scripts/build-schemes-db.js"
   },
   "keywords": [
     "sih2026",
@@ -25,6 +26,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "yaml": "^2.6.1"
   }
 }

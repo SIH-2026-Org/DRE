@@ -1,0 +1,12 @@
+sources:
+  - id: nsfdc_faq
+    name: NSFDC FAQ
+    url: https://nsfdc.nic.in/faqs
+    organization: NSFDC
+    enabled: true
+
+  - id: pm_daksh
+    name: PM-DAKSH - myScheme
+    url: https://www.myscheme.gov.in/schemes/pm-daksh
+    organization: Ministry of Social Justice and Empowerment / myScheme
+    enabled: true

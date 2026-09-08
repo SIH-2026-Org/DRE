@@ -1,3 +1,5 @@
+import { RESEARCHED_SCHEMES } from './schemes.researched.js';
+
 /**
  * SAARTHI-SETU — Canonical Scheme Database (80 Comprehensive Schemes)
  *
@@ -7,7 +9,7 @@
  * are based on official Government of India and State Government guidelines.
  */
 
-export const SCHEMES = [
+const BUILT_IN_SCHEMES = [
   {
     "scheme_id": "PMMY_SHISHU",
     "name": "Pradhan Mantri Mudra Yojana - Shishu",
@@ -10094,5 +10096,8 @@ export const SCHEMES = [
     }
   }
 ];
+
+// Research-derived schemes are generated only from human-approved records.
+export const SCHEMES = [...BUILT_IN_SCHEMES, ...RESEARCHED_SCHEMES];
 
 export default SCHEMES;
